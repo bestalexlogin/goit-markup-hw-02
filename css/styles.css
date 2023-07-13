@@ -22,20 +22,6 @@ body {
   --fontlogo: "Raleway", sans-serif;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /*
 a{
   text-decoration: none;
@@ -49,17 +35,17 @@ ul{
 /*Header styles*/
 
 .page-logo {
-  color: var(--navyblue);
+  color: #4d5ae5;
   font-family: var(--fontlogo);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.11;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .page-logo-color {
-  color: var(--iris);
+  color: #2e2f42;
 }
 
 .link {
@@ -67,7 +53,7 @@ ul{
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .header-menu-link {
@@ -83,10 +69,13 @@ ul{
   color: var(--ocean);
 }
 
+.header-contacts {
+  font-style: normal;
+}
+
 .header-contacts-link {
   color: var(--slate);
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -115,22 +104,18 @@ ul{
 
 .main-banner-button {
   color: var(--white);
+  background-color: #4d5ae5;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  /*
-  border-radius: 4px;
-  background: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-*/
 }
 
 .main-banner-button:hover,
 .main-banner-button:focus {
-  color: var(--ocean);
+  color: #404bbf;
 }
 
 /*Advantages Section 2*/
@@ -226,7 +211,7 @@ ul{
 }
 
 .page-footer-logo {
-  color: var(--cloud);
+  color: #4d5ae5;
   font-family: var(--fontlogo);
   font-size: 18px;
   font-weight: 800;
@@ -236,7 +221,7 @@ ul{
 }
 
 .footer-logo-color {
-  color: var(--iris);
+  color: #f4f4fd;
 }
 
 .page-footer-text {
@@ -247,28 +232,31 @@ ul{
 }
 
 /*Page main portfolio*/
-.portfolio-buttons-item {
-  color: var(--iris);
+.portfolio-button-list {
+}
+.list {
+}
+.portfolio-button-item {
+}
+.portfolio-btns-items {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   text-align: center;
-  /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower);
-  background: var(--cloud);
+  cursor: pointer;
 }
 
-.portfolio-buttons-item:hover,
-.portfolio-buttons-item:focus {
-  color: var(--white);
-  border-radius: 4px;
-  background: var(--ocean);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+.portfolio-btns-items:hover,
+.portfolio-btns-items:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
+.portfolio-about-link {
+}
 .portfolio-about-list {
 }
 .portfolio-about-item {
@@ -276,15 +264,15 @@ ul{
   background: var(--white);
 }
 .portfolio-about-title {
-  color: var(--navyblue);
-  /* Header 3 */
+  color: #2e2f42;
+  /* Header 2 */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-about-text {
-  color: var(--slate);
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
