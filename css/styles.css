@@ -177,6 +177,7 @@ ul{
 }
 
 .section-team-list {
+  background-color: #ffffff;
 }
 
 .section-team-item {
@@ -239,7 +240,7 @@ ul{
   background-color: #f4f4fd;
   text-align: center;
   font-size: 16px;
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
