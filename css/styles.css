@@ -50,7 +50,6 @@ ul{
 
 .link {
   text-decoration: none;
-  font-style: normal;
 }
 
 .list {
@@ -71,6 +70,7 @@ ul{
 }
 
 .header-contacts {
+  font-style: normal;
 }
 
 .header-contacts-link {
@@ -105,6 +105,7 @@ ul{
   color: var(--white);
   background-color: #4d5ae5;
   font-family: inherit;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -225,16 +226,12 @@ ul{
 }
 
 /*Page main portfolio*/
-.portfolio-button-list {
-}
-.list {
-}
-.portfolio-button-item {
-}
+
 .portfolio-btns-items {
   color: #4d5ae5;
   background-color: #f4f4fd;
   text-align: center;
+  cursor: pointer;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
