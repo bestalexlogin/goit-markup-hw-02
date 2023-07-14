@@ -75,6 +75,7 @@ ul{
 .header-contacts-link {
   color: var(--slate);
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
